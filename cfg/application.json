@@ -1,0 +1,5 @@
+{
+    "name": "iperf",
+    "command": "iperf",
+    "opts": ["-s"]
+}

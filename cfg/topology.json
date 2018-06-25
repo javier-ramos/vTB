@@ -1,0 +1,10 @@
+{
+    "name": "Example topology",
+    "virt": "docker",
+    "nodes": ["n1","n2"],
+    "switches": ["s1"],
+    "links": [["n1","s1",1000],["n2","s1",1000]],
+    "net":"192.168.0.0",
+    "mask":"24"
+    
+}
